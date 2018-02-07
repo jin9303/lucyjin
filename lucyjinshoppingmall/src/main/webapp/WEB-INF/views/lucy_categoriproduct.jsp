@@ -374,10 +374,9 @@
               
               <!-- CATEGORIES -->
               <ul class="cate">
-                 <li class="drop-menu"> <a href="lucy_productlist2_2.html" class="title collapsed" data-toggle="collapse" data-target="#access"> APPEARAL<span>(15)</span></a>
+                <li class="drop-menu"> <a href="#." class="title collapsed" data-toggle="collapse" data-target="#access"> APPEARAL <span>(15)</span></a>
                   <div class="collapse" id="access">
-                    <div class="well">
-                      <ul>
+                    <div class="well">                      <ul>
                         <li><a href="lucy_productlist2_2.html">KNIT</a> </li>
                         <li><a href="lucy_productlist2_2.html">T-SHIRTS</a> </li>
                         <li><a href="lucy_productlist2_2.html">BLOUES</a> </li>
@@ -388,11 +387,11 @@
                       </ul>
                     </div>
                   </div>
-                </li>
-                     <li class="drop-menu"> <a href="lucy_productlist2_3.html" class="title collapsed" data-toggle="collapse" data-target="#shoes"> SHOES <span>(15)</span></a>
+                </li>        
+                <li class="drop-menu"> <a href="#." class="title collapsed" data-toggle="collapse" data-target="#shoes"> SHOES <span>(15)</span></a>
                   <div class="collapse" id="shoes">
-                    <div class="well">
-                      <ul>
+                    <div class="well">                     
+                                              <ul>
                         <li><a href="lucy_productlist2_3.html">BOOTS</a></li>
                         <li><a href="lucy_productlist2_3.html">SNEAKERS</a></li>
                         <li><a href="lucy_productlist2_3.html">FLAT/LOAFER</a></li>
@@ -404,9 +403,9 @@
                     </div>
                   </div>
                 </li>
-                <li class="drop-menu"> <a href="lucy_productlist2_4.html" class="title collapsed" data-toggle="collapse" data-target="#access1"> Accessories <span>(15)</span></a>
+                <li class="drop-menu"> <a href="#." class="title collapsed" data-toggle="collapse" data-target="#access1"> Accessories <span>(15)</span></a>
                   <div class="collapse" id="access1">
-                    <div class="well">
+                    <div class="well">                     
                       <ul>
                         <li><a href="lucy_productlist2_4.html">JEWELRY</a></li>
                         <li><a href="lucy_productlist2_4.html">HAT</a></li>
@@ -414,11 +413,12 @@
                       </ul>
                     </div>
                   </div>
-                </li>
+                </li>        
+
                 <li><a href="#.">Bag <span>(8)</span></a> </li>
-                <li class="drop-menu"> <a href="lucy_productlist2_5.html" class="title collapsed" data-toggle="collapse" data-target="#watches"> Watch <span>(15)</span></a>
-                  <div class="collapse" id="watches">
-                    <div class="well">
+<li class="drop-menu"> <a href="#." class="title collapsed" data-toggle="collapse" data-target="#Watch1"> Watch <span>(15)</span></a>
+                  <div class="collapse" id="Watch1">
+                    <div class="well">                     
                       <ul>
                         <li><a href="lucy_productlist2_5.html">SHOULDER BAG</a></li>
                         <li><a href="lucy_productlist2_5.html">TOTE BAG</a></li>
@@ -427,11 +427,13 @@
                     </div>
                   </div>
                 </li>
+
                 <li><a href="lucy_sale.html">Sale <span> (11)</span></a> </li>
                 <li><a href="#.">Top Rate <span>(35)</span></a> </li>
                 <li><a href="#.">Collections <span>(17)</span></a> </li>
                 <li><a href="lucy_mypage.html">MY LUCY </a> </li>
               </ul>
+              
               
               <!-- HEADING -->
               <div class="heading">
