@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lucyjin.shop.dao.LoginDAO">
+<!-- 로그인 한건 읽기 -->
+	<select id="getLogin" resultType="com.lucyjin.shop.dto.MemberDTO">
+		select member_emailId as emailId,
+		       member_birthday as birthdate,
+		       member_name as name,
+		       member_addr as addr,
+		       member_passwd as passwd,
+		       member_phone_no as phone_no,
+		       member_agree_yn as agree_yn
+		from member where member_emailId=#{param1}
+	</select>
+	</mapper>

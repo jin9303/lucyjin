@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lucyjin.shop.dao.MemberDAO">
+
+<!-- 회원 작성하기 -->
+ <insert id="registerDAO" parameterType="com.lucyjin.shop.dto.MemberDTO" >
+	insert into member values(#{emailId},#{birthdate},#{name},#{addr},#{passwd},#{phone_no},#{agree_yn})
+ </insert>
+	
+<!-- 한건읽기 -->
+	<select id="getMember" resultType="com.lucyjin.shop.dto.MemberDTO">
+		select member_emailId as emailId,
+		       member_birthday as birthdate,
+		       member_name as name,
+		       member_addr as addr,
+		       member_passwd as passwd,
+		       member_phone_no as phone_no,
+		       member_agree_yn as agree_yn
+		from member where member_emailId=#{param1}
+	</select>
+	
+	<!-- 수정하기 -->
+<update id="updateMember" parameterType="com.lucyjin.shop.dto.MemberDTO">
+		update member set 
+							member_birthday=#{birthdate},
+							member_name=#{name},
+							member_addr=#{addr},
+							member_passwd=#{passwd},
+							member_phone_no=#{phone_no}
+		where member_emailId=#{emailId}
+			</update>
+<delete id="removeMember" parameterType="String">
+delete from member where member_emailId=#{emailId}
+</delete>
+			
+</mapper>

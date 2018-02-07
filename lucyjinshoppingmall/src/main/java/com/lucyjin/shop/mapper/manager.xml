@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lucyjin.shop.dao.ManagerDAO">
+
+<!-- 회원 작성하기 -->
+ <insert id="managerRegister" parameterType="com.lucyjin.shop.dto.ManagerDTO" >
+	insert into manager values(#{emailId},#{author},#{name},#{passwd})
+ </insert>
+<!--  로그인 한건 읽기  -->
+<select id="getLogin2" resultType="com.lucyjin.shop.dto.ManagerDTO">
+		    select  
+		 			manager_author as author,
+		       		manager_name as name,
+		       		manager_passwd as passwd
+		from manager where manager_Id=#{param1}
+	</select>
+ </mapper>
