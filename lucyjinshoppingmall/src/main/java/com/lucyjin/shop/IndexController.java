@@ -21,7 +21,7 @@ public class IndexController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		return "lucy_categoriproduct";
+		return "lucy_home";
 	}
 	
 	

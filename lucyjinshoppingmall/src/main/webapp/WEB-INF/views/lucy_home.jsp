@@ -287,7 +287,7 @@
                 <li><a href="lucy_join.html">MY MODIFY</a></li>
                 <li><a href="lucy_order.html">ORDER</a></li>
                 <li><a href="lucy_QNA.html">QNA</a></li>
-                 <li><a href="lucy_reviewlist.html">REIVEW</a></li>
+                 <li><a href="<%=ctx%>/review/list">REIVEW</a></li>
                    <li><a href="lucy_QNA1.html">1:1ë¬¸ì</a></li>
                        <li><a href="lucy_return.html">êµí/ë°í</a></li>
               </ul>
